@@ -1,0 +1,5 @@
+N,k =map(int,input().split())
+s=input().split()
+s=list(map(int,s))
+s.sort()
+print(s[-k])
